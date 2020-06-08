@@ -8,7 +8,8 @@ Elaborate: `ghdl -e hello`
 Run: `ghdl -r hello`
 
 # GTKWave usage
-Need a testbench to send stimuli to the design
-`ghdl -r hello --vcd=hello.vcd`
+Need a testbench to send stimuli to the design.
 
-`gtkwave hello.cvd`
+Generate vcd file: `ghdl -r hello --vcd=hello.vcd`
+
+Launch GTKWave: `gtkwave hello.cvd`
